@@ -14,7 +14,7 @@ https://github.com/Fndroid/clash_for_windows_pkg/releases
 
 在windows10虚拟机中打开：
 
-2.2 poc
+2.2 poc:
 
 port: 7890
 socks-port: 7891
