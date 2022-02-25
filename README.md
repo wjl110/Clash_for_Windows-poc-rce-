@@ -10,7 +10,7 @@ A Windows/macOS/Linux GUI based on Clash and Electron.
 
 # 
 
-# 0x02:漏洞复现
+0x02:漏洞复现
 
 ## 从以下链接下载Windows版本：
 
@@ -20,7 +20,7 @@ https://github.com/Fndroid/clash_for_windows_pkg/releases
 
 ## 在windows10虚拟机中打开Clash_for_Windows
 
-# 0x03:poc
+0x03:poc
 
 ````
 port: 7890
@@ -57,9 +57,9 @@ import
 
 Proxies
 
-# 此时弹出计算器，漏洞成功利用。
+此时弹出计算器，漏洞成功利用。
 
-# 0x04:
+0x04:
 
 ###### 原作者pr链接：
 
